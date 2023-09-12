@@ -3,7 +3,12 @@
     padding: 0;
     /* box-sizing: border-box; */
 }
-@media screen and (max-width:900px){
+:root{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Qwigley' ;
+font-family: 'Source Sans 3', sans-serif;
+}
+/* @media screen and (max-width:900px){
     body{
          background-color: aqua;!important 
     }
@@ -12,9 +17,10 @@
     body{
          background-color: red;!important 
     }
-}
+} */
 body{
     font-family: 'Open Sans', sans-serif;
+    
 }
  .header{
     display: flex;
@@ -31,11 +37,15 @@ body{
    width: 215px;
    height: 95px;
    font-size: 80px;
+   position: relative;
+   top: 10px;
    margin-bottom: 30px;
    margin-left: 20px;
 }
-navbar-brand d-flex .deliver{
+.navbar-brand.d-flex.deliver{
     flex-wrap: wrap;
+    position: relative;
+    top: 5px;
 }
 .location{
     width: 83px;
@@ -87,7 +97,198 @@ navbar-brand d-flex .deliver{
     width: 118px;
     height: 45px;
     border-radius: 8px;
-    padding: 14px, 24px, 14px, 24px;
+    padding: 20px, 24px, 14px, 24px;
     margin-top: 10px;
 }
+/* navbar completed */
+
+.header-right{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.meals{
+    font-family: Qwigley;
+font-size: 88px;
+font-weight: 400; 
+padding-top: 88px;
+padding-left: 100px;
+padding-right: 200px;
+
+}
+.click{
+font-family: sans-serif;
+font-size: 22px;
+font-weight: 400;
+padding-left: 100px;
+padding-bottom: 0;
+padding-right: 100px;
+}
+.header-d-flex{
+    width: 1348px;
+    height: 500px;
+    top: 101px;
+    /* left: 1px; */
+}
+.forms{
+    width:fit-content;
+    background-color: white;
+    flex-wrap: wrap;
+  margin-left: 100px;
+}
+
+.img1{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 856px; */
+    
+}
+.bike{
+font-size: 18px;
+font-weight: 900;
+padding: 10px;
+}
+.delivery{
+    color:  #F17228;
+    border: 1px ;
+    border-radius: 8px;
+    background-color:  #F172281A;
+    padding-right: 15px;
+}
+.bag{
+    font-size: 18px;
+font-weight: 900;
+padding: 10px;
+}
+.pickup{
+   border: 1px ;
+    border-radius: 8px;
+    padding-left: 15px;
+}
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.loc{
+    width: 18px;
+height: 34px;
+size: 24px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.add{
+    color: #9E9E9E;
+    size: 12px;
+    width: 593px;
+    height: 40px;
+    padding: 7px 0px 5px 10px;
+    border-radius: 8px;
+    
+    background-color:  #F5F5F5;
+    
+}
+.srch{
+    color: #FFFFFF;
+padding-right: 10px;
+padding-left: 10px;
+}
+.btn1{
+     background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+     border-color: #FF7A7A;
+     color: white;
+     border-radius: 8px;
+     margin-left: 5px;
+     padding-top: 10px;
+     padding-left:40px;
+     padding-right: 40px;
+     padding-bottom: 10px;
+     margin-bottom: 8px;
+}
+.pngegg-1{
+   justify-content: flex-end;
+   width: 350px;
+   height: 350px;
+   position: relative;
+   bottom: 300px;
+} .left{
+   padding-right: 400px;
+}
 /* header completed */
+.card-group{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    top: 60px;
+    margin-bottom: 100px;
+}
+.card-img-top1{
+    width: 250px;
+    height: 250px;
+    top: 828px;
+    border-radius: 10px;
+}
+.card-img-top2{
+    width: 250px;
+    height: 250px;
+    top: 828px;
+    border-radius: 10px;
+}
+.card-img-top3{
+    width: 250px;
+    height: 250px;
+    top: 828px;
+    border-radius: 10px;
+}
+.card-img-top4{
+    width: 250px;
+    height: 250px;
+    top: 828px;
+    border-radius: 10px;
+}
+.card1{
+    padding-right: 20px;
+}
+.card2{
+    padding-right: 20px;
+}
+.card3{
+    padding-right: 20px;
+}
+.btn.btn-light{
+    background-color:  #F1722833;
+    color: #F17228;
+}
+.card-title{
+    width: 48px;
+height: 26px;
+top: 1161px;
+left: 240px
+}
+/* card- group-over */
+.work-container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.work{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    font-family:sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color:  #F17228;
+}
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar-brand{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 200px;
+}
