@@ -3,7 +3,7 @@
     padding: 0;
     /* box-sizing: border-box; */
 }
-/* @media screen and (max-width:900px){
+@media screen and (max-width:900px){
     body{
          background-color: aqua;!important 
     }
@@ -12,7 +12,7 @@
     body{
          background-color: red;!important 
     }
-} */
+}
 body{
     font-family: 'Open Sans', sans-serif;
 }
