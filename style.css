@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+     /* box-sizing: border-box;  */
 }
 :root{
     font-family: 'Open Sans', sans-serif;
@@ -39,6 +39,7 @@ body{
    font-size: 80px;
    position: relative;
    top: 10px;
+   left: 60px;
    margin-bottom: 30px;
    margin-left: 20px;
 }
@@ -46,6 +47,7 @@ body{
     flex-wrap: wrap;
     position: relative;
     top: 5px;
+    left: 20px;
 }
 .location{
     width: 83px;
@@ -266,29 +268,334 @@ top: 1161px;
 left: 240px
 }
 /* card- group-over */
-.work-container-fluid{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.work.container-fluid{
+   display: flex;
+   justify-content: center;
+   padding-bottom: 300px;
 }
-.work{
+ .works{
     display: flex;
     justify-content: center;
     position: relative;
-    top: 100px;
-    left: 300px;
+    top: 40px;
+    left: 40x;
     font-family:sans-serif;
     font-size: 40px;
     font-weight: 700;
     color:  #F17228;
-}
-.tags{
+} 
+
+.brands{
     display: flex;
     flex-wrap: wrap;
+    position: relative;
+    top: 90px;
 }
 .navbar-brand{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 50px;
     position: relative;
-    top: 200px;
+}
+.navbar-brand2{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 50px;
+}
+.navbar-brand3{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 50px;
+}
+.discounts{
+    width: 152px;
+height: 84px;
+position: relative;
+top: 40px;
+left: 50px;
+color:  #FB3C00 ;
+}
+.tracing{
+    width: 152px;
+    height: 84px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    color:  #FB3C00 ;
+}
+.quick{
+    width: 152px;
+    height: 84px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    color:  #FB3C00 ;
+}
+.d-inline-block.align-top{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    left: 30px;
+}
+.hr{
+    width: 2px;
+height: 96px;
+position: relative;
+top: 30px;
+
+
+}
+.work.container-fluid{
+   padding: auto;
+}
+/* navbar-brand over */
+.circle{
+font-family: Source Sans Pro;
+font-size: 43px;
+font-weight: 700;
+line-height: 48px;
+position: relative;
+left: 50px;
+bottom: 40px;
+}
+.food{
+    display: flex;
+    flex-wrap: wrap;
+}
+.foods{
+    width: 200px;
+    height: 200;
+    position: relative;
+    padding: auto;
+    left: 50px;
+}
+.name{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    position: relative;
+    left: 110px;
+    top: 20px;
+}
+.food.container-fluid{
+    padding-bottom: 80px;
+    padding-top: 50px;
+   background-color: whitesmoke;
+   position: relative;
+   bottom: 80px;
+}
+/* food over */
+.img4{
+    width: 700px;
+   height: 400px;
+   position: relative;
+   left: 500px;
+   bottom:200px;
+}
+.slice{
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 25px;
+color:  #616161B0;
+}
+.btn1.btn-primary{
+    background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+    box-shadow: 0px 14px 32px 0px #FFB20E4A;
+    box-shadow: 0px 5px 8px 0px #DE97003D;
+    position: relative;
+    top: 30px;
+}
+.deals{
+    position: relative;
+    top: 80px;
+    left: 90px;
+}
+.best.container-fluid{
+    padding-right: 110px;
+}
+/* Best deals over */
+.items.container-fluid{
+    padding-right: 100px;
+}
+.Popular-items{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   bottom: 40px;
+}
+.card-img-top{
+    width: 240px;
+    height: 220px;
+    border-radius: 10px;
+    position: relative;
+    left: 10px;
+}
+.items-container-fluid1{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 45px;
+}
+.card-title1{
+font-size: small;
+position: relative;
+left: 80px;
+font-weight: 700;
+line-height: 26px;
+color: #424242;
+}
+.btn.btn-primary{
+    width: 230px;
+    position: relative;
+    left: 15px;
+    bottom: 10px;
+    color: white;
+    background-color:  #F17228;
+    box-shadow: 0px 20px 40px 0px #FA63233D;
+    box-shadow: 0px 5px 10px 0px #FD725C38;
+}
+.card-1{
+    position: relative;
+    width: fit-content;
+    right: 10px;
+    margin-right: 5px;
+    margin-bottom: 40px;
+} 
+/* cards over */
+/* footer */
+/* .footer.container-fluid{
+    background-color: #090D12;
+    justify-content: center;
+}
+.hr1{
+    width: 1300px;
+     border: 2px solid #424242;
+}
+ul{
+    list-style: none;
+    
+}
+.heading{
+    color:  #FFFFFF;
+}
+.footer-col1>ul{
+    display:inline;
+    position: relative;
+    top: 15px;
+}
+ul li a:hover{
+  color: #F5F5F5;
+} */
+
+/* Style the footer container */
+footer {
+    background-color: #090D12;
+    color: #fff; 
+    padding: 20px 0;
+    
+  }
+  
+  .footer h4.heading {
+    font-size: 22px; 
+    margin-bottom: 10px;
+  }
+  
+  /* Style the footer columns */
+  .footer .footer-col1,
+  .footer .footer-col2,
+  .footer .footer-col3 {
+    width: 200px;
+    position: relative;
+    top: 50px;
+    left: 120px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the footer links */
+  .footer ul {
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    top: 20px;
+    color: #F5F5F5;
+font-size: small;
+font-weight: 400;
+line-height: 18px;
+}
+  
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .footer a:hover {
+    color: #ff6600; /* Change the color on hover */
+  }
+.hr1{
+    width: 1300px;
+     border: 2px solid #424242;
+}
+.follow{
+    position: relative;
+    left: 900px;
+    bottom: 100px;
+    font-size: smaller;
+    color: #424242;
+}
+.icon{
+    position: relative;
+    left: 900px;
+    bottom: 80px;
+}
+.mailbox{
+    position: relative;
+    left: 900px;
+    bottom: 70px;
+    font-size: smaller;
+    color: #BBBBBB;
+}
+.lable{
+    position: relative;
+    left:20px;
+}
+.envelope{
+    position: relative;
+    left: 30px;
+    color: #424242;
+}
+#email::placeholder{
+    position: relative;
+    left: 30px;
+}
+.email{
+    display: flex;
+    position: relative;
+    left: 850px;
+    bottom: 70px;
+    font-size: smaller;
+    color: #BBBBBB;
+}
+.submit{
+    position: relative;
+    bottom: 5px;
+padding: 10px 10px 10px 10px;
+border-radius: 8px;
+left:  10px;
+background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+box-shadow: 0px 14px 32px 0px #FFB20E4A;
+box-shadow: 0px 5px 8px 0px #DE97003D;
+}
+.right{
+    font-size:15px ;
+    color: #F5F5F5;
+}
+.footer.container-fluid{
+   box-sizing: content-box;
 }
